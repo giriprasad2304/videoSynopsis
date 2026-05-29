@@ -1,0 +1,19 @@
+body{
+  background-color: #131315;
+}
+
+/* This styles all inputs with the light placeholder */
+input::placeholder {
+    color: #ffffff;   
+    opacity: 0.25;    
+}
+
+input::-webkit-input-placeholder {
+    color: #ffffff;
+    opacity: 0.25;
+}
+
+input::-moz-placeholder {
+    color: #ffffff;
+    opacity: 0.25;
+}
