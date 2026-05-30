@@ -1,0 +1,43 @@
+.navbar-styles{
+    background-color:  #333335 !important;
+}
+
+.navbar-icon{
+    font-family: 'Inter', system-ui, -apple-system, sans-serif; /* Standard modern tech font */
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  
+  background: linear-gradient(
+    90deg, 
+    #B1B9FC 0%,    
+    #93C5FD 45%,   
+    #5DD5FA 100%   
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.button-signup{
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #C0C1FF;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button-signup:hover{
+    background-color: #9fa2ff;
+}
+
+.nav-item-color{
+    color: #FFFFFF;
+    margin-left: 10px;
+    text-decoration: none;
+}

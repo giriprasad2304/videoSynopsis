@@ -51,3 +51,19 @@ body{
     outline: none;
     box-sizing: border-box;
 }
+
+.Home-href{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: transform 0.5s ease-out;
+}
+.Home-href-icon{
+    font-size: 1.2rem;
+    margin-bottom: 7px;
+    transition: transform 0.5s ease-out;
+}
+
+.Home-href:hover , Home-href-icon:hover {
+    color: rgb(98, 98, 186);
+}

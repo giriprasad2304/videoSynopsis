@@ -5,6 +5,7 @@ import { RiLockPasswordLine } from "react-icons/ri";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import { IoMdHome } from "react-icons/io";
 
 const SignUp = () => {
   const navigate = useNavigate();
@@ -39,7 +40,7 @@ const SignUp = () => {
         {errorMessage && <h4>email exists please login</h4>}
         <form className="auth-from" onSubmit={handleSignup}>
           <div className="mb-3">
-            <label htmlFor="userName" className="form-label">
+            <label htmlhtmlFor="userName" className="form-label">
               <IoPersonOutline className="form-icon" /> User Name
             </label>
 
@@ -53,7 +54,7 @@ const SignUp = () => {
             />
           </div>
           <div className="mb-3">
-            <label htmlFor="email" className="form-label">
+            <label htmlhtmlFor="email" className="form-label">
               <MdOutlineEmail className="form-icon" />
               Email address
             </label>
@@ -69,7 +70,7 @@ const SignUp = () => {
           </div>
 
           <div className="mb-3">
-            <label htmlFor="exampleInputPassword1" className="form-label">
+            <label htmlhtmlFor="exampleInputPassword1" className="form-label">
               <RiLockPasswordLine className="form-icon" />
               Password
             </label>
@@ -99,6 +100,11 @@ const SignUp = () => {
         </form>
         <p>
           Already you have an Account ? <a href="/login">Login</a>{" "}
+        </p>
+        <p>
+          <a className="Home-href" href="/">
+            <IoMdHome className="Home-href-icon" /> Home
+          </a>
         </p>
       </div>
     </>
