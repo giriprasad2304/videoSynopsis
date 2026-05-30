@@ -41,6 +41,7 @@ const Hero = () => {
         />
         <div className="history-demo-content">
           <h4>React JS Course</h4>
+          <p>Channel : Simple Dev</p>
           <p className="text-color-design">Executive Summary</p>
           <p>
             The video outlines 3 pivotal shifts in React: Server Components, the

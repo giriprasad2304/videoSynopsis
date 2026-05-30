@@ -3,9 +3,10 @@ import "../styles/footer.css";
 const Footer = () => {
   return (
     <>
-      <div className=".container-fluid footer-styles ">
+      <div className="container-fluid footer-styles ">
         {" "}
         <footer className="py-3 my-4">
+          <h1 className="logo">Video Synopsis Ai</h1>
           {" "}
           <ul className="nav justify-content-center border-bottom pb-3 mb-3">
             {" "}
