@@ -1,11 +1,15 @@
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import "../styles/home.css";
+import "../styles/footer.css";
+import Hero from "../components/Hero";
+
 const Home = () => {
   return (
     <>
-      <NavBar/>
-      <h1>Home</h1>
-      <Footer/>
+      <NavBar />
+      <Hero />
+      <Footer />
     </>
   );
 };

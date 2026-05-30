@@ -3,7 +3,7 @@ import "../styles/footer.css";
 const Footer = () => {
   return (
     <>
-      <div className="container footer-styles">
+      <div className=".container-fluid footer-styles ">
         {" "}
         <footer className="py-3 my-4">
           {" "}
