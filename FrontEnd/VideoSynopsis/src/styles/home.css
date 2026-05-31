@@ -13,6 +13,8 @@
 
 .button-generate:hover {
     background-color: #9fa2ff;
+    color: white;
+    transition: background-color 0.6 ease ;
 }
 
 .input-generate {

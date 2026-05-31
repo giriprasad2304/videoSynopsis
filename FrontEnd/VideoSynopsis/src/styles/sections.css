@@ -1,9 +1,16 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .even {
     min-height: 750px;
     background-color: #0E0E10;
     padding: 80px 20px;
     margin-top: 30px;
     box-sizing: border-box;
+    max-height: 850px;
 }
 
 .title-section1 {
@@ -92,6 +99,50 @@
     align-items: center;
     flex-direction: column;
     color: white;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.price-box {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    height: 420px;
+    background-color: #1A1A1E;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 50px 30px;
+    margin-left: 3%;
+    color: white;
+}
+
+.checkmark{
+    color: cyan;
+    margin-right: 4px;
+    font-size: 1.3rem;
+    padding-bottom: 3px;
+}
+
+.price-desc{
+    color: grey;
+}
+
+.pruchase{
+    border: 2px solid grey;
+    padding: 10px 45px;
+    border-radius: 15px;
+}
+.pruchase:hover{
+    background-color: #9fa2ff;
+    transition: background-color 0.3s ease;
+    color: #0E0E10;
+    border: none;
 }
 
 @media (max-width: 768px) {
