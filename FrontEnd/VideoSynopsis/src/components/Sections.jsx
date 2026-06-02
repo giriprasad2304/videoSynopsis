@@ -8,7 +8,7 @@ import { IoCheckmarkCircleOutline } from "react-icons/io5";
 const Sections = () => {
   return (
     <>
-      <section className="even">
+      <section id="features" className="even">
         <h1 className="title-section1">
           Intelligence, Simplified
           <h6 style={{ color: "grey" }}>
@@ -92,7 +92,7 @@ const Sections = () => {
         </div>
       </section>
 
-      <section className="even">
+      <section id="pricing" className="even">
         <h1 className="title-section1" style={{"margin-bottom" : "60px"}}>
           Simple, Scalable Pricing
           <h6 style={{ color: "grey" }}>
